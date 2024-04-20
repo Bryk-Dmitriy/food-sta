@@ -4,25 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoodSta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- ===================== HEADER ===================== -->
-    <header>
-      <nav>
-        <a href="./index.html">
+    <header class="page-header">
+      <div class="container header-container">
+        <a class="logo" href="./index.html">
           <img src="./images/vector.png" alt="FoodSta" />
         </a>
-        <ul>
-          <li>
-            <a href="./index.html">Home</a>
-          </li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contacts</a></li>
-          <li><button type="button">Order Now</button></li>
-        </ul>
-      </nav>
+        <nav class="page-nav">
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li><a class="nav-link" href="">About</a></li>
+            <li><a class="nav-link" href="">Service</a></li>
+            <li><a class="nav-link" href="">Menu</a></li>
+            <li><a class="nav-link" href="">Contacts</a></li>
+            <li><button class="header-btn" type="button">Order Now</button></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- ===================== PREVIEV ===================== -->
@@ -79,39 +88,41 @@
     <section>
       <h2>Some of Our Favorites</h2>
       <p>Looking for something delicious?</p>
-      <li>
-        <img
-          src="./images/gamburger.png"
-          alt="gamburger"
-          width="395"
-          height="397"
-        />
-      </li>
-      <li>
-        <img src="./images/pasta.png" alt="pasta" width="394" height="397" />
-      </li>
-      <li>
-        <img src="./images/pizza.png" alt="pizza" width="395" height="397" />
-      </li>
-      <li>
-        <img
-          src="./images/chicken.png"
-          alt="chicken"
-          width="395"
-          height="397"
-        />
-      </li>
-      <li>
-        <img src="./images/salat.png" alt="salat" width="394" height="397" />
-      </li>
-      <li>
-        <img
-          src="./images/borshch.png"
-          alt="borshch"
-          width="395"
-          height="397"
-        />
-      </li>
+      <ul>
+        <li>
+          <img
+            src="./images/gamburger.png"
+            alt="gamburger"
+            width="395"
+            height="397"
+          />
+        </li>
+        <li>
+          <img src="./images/pasta.png" alt="pasta" width="394" height="397" />
+        </li>
+        <li>
+          <img src="./images/pizza.png" alt="pizza" width="395" height="397" />
+        </li>
+        <li>
+          <img
+            src="./images/chicken.png"
+            alt="chicken"
+            width="395"
+            height="397"
+          />
+        </li>
+        <li>
+          <img src="./images/salat.png" alt="salat" width="394" height="397" />
+        </li>
+        <li>
+          <img
+            src="./images/borshch.png"
+            alt="borshch"
+            width="395"
+            height="397"
+          />
+        </li>
+      </ul>
     </section>
 
     <!-- ===================== REVIEWS ===================== -->
@@ -121,35 +132,38 @@
         Don't just take our word for it - see what our satisfied customers have
         to say
       </p>
-      <li>
-        <h4>
-          “The Best app I have used to order food in a while, so many options to
-          choose from too, I would recommend to a freind, No questions asked“
-        </h4>
-        <img
-          src="./images/ellipse 9.png"
-          alt="Sumith Shah"
-          width="48"
-          height="48"
-        />
-        <h5>Sumith Shah</h5>
-        <p>Some Dude</p>
-      </li>
-      <li>
-        <h4>
-          “The ease with which I can just go in and order what i want was
-          amazing, It has been a very pleasant experience ordering from this
-          app“
-        </h4>
-        <img
-          src="./images/ellipse 10.png"
-          alt="Sumith Shah"
-          width="48"
-          height="48"
-        />
-        <h5>Sumith Shah</h5>
-        <p>Some Dude</p>
-      </li>
+      <ul>
+        <li>
+          <h4>
+            “The Best app I have used to order food in a while, so many options
+            to choose from too, I would recommend to a freind, No questions
+            asked“
+          </h4>
+          <img
+            src="./images/ellipse 9.png"
+            alt="Sumith Shah"
+            width="48"
+            height="48"
+          />
+          <h5>Sumith Shah</h5>
+          <p>Some Dude</p>
+        </li>
+        <li>
+          <h4>
+            “The ease with which I can just go in and order what i want was
+            amazing, It has been a very pleasant experience ordering from this
+            app“
+          </h4>
+          <img
+            src="./images/ellipse 10.png"
+            alt="Sumith Shah"
+            width="48"
+            height="48"
+          />
+          <h5>Sumith Shah</h5>
+          <p>Some Dude</p>
+        </li>
+      </ul>
     </section>
 
     <!-- ===================== SPECIAL OFFERS ===================== -->

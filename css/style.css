@@ -1,186 +1,337 @@
-body{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: #2c2c2c;
-    margin: 0;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2c2c2c;
+  margin: 0;
 }
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-img{
-    display: block;
+img {
+  display: block;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
-.container{
-width: 1280px;
-padding: 0 16px;
-margin: 0 auto;
-display: flex;
-}
-.header-container{
-    
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
-.page-header{
-box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
 }
 .page-nav {
-margin-right: 30px;
+  margin-right: 30px;
 }
 
 .logo {
-margin-right: auto;
-margin-top: 10px;
-
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 .nav-list {
-display: flex;
-gap: 28px;
+  display: flex;
+  gap: 28px;
 }
 
 .nav-link {
-padding: 28px 0;
-display: block;
+  padding: 28px 0;
+  display: block;
 }
 
 .header-btn {
-font-weight: 500;
-    font-size: 13px;
-    line-height: 1.5;
-    text-align: right;
-    background: #bbf330;
-    border-radius: 30px;
-        padding: 6px 17px;
-        min-width: 98px;
-        height: 32px;
-        margin-top: 20px;
-        margin-right: 16px;
-        font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  background: #bbf330;
+  border-radius: 30px;
+  padding: 6px 17px;
+  min-width: 98px;
+  height: 32px;
+
+  font-family: inherit;
 }
 
 /* ===================== PREVIEV ===================== */
 
 .previev-title {
-    padding-top: 159px;
-    font-size: 48px;
-    line-height: 1.2;
-    margin-bottom: 28px;
+  padding-top: 159px;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
 }
 
 .previev-paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
 
 .previev-button {
-font-weight: 500;
-    font-size: 13px;
-    line-height: 1.5;
-    text-align: right;
-    background: #bbf330;
-    border-radius: 30px;
-    padding: 6px 17px;
-    min-width: 98px;
-    height: 32px;
-    margin-top: 20px;
-    margin-right: 16px;
-    font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  background: #bbf330;
+  border-radius: 30px;
+  padding: 6px 17px;
+  min-width: 98px;
+  height: 32px;
+  margin-top: 20px;
+  margin-right: 16px;
+  font-family: inherit;
 }
 
 /* ===================== SECOND PREVIEV ===================== */
 .second-previev-container {
-    margin-left: 90px;
+  margin-left: 90px;
 }
 
-.second-previev-section{
-    margin-bottom: 100px;
+.second-previev-section {
+  margin-bottom: 100px;
 }
 
 .second-previev-title {
-    font-size: 42px;
-        line-height: 1.2;
-        width: 526px;
+  font-size: 42px;
+  line-height: 1.2;
+  width: 526px;
 }
 
 .second-previev-paragraph {
-    font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 40px;
-        width: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  width: 500px;
 }
 
-.container-icons-list {}
+.container-icons-list {
+}
 
 .second-previev-list {
-    display: flex;
-    gap: 67px;
+  display: flex;
+  gap: 67px;
 }
 
 .second-previev-imems {
-    width: 253px;
+  width: 253px;
 }
 
 .second-previev-title-icons {
-    font-size: 18px;
-    line-height: 1.4;}
+  font-size: 18px;
+  line-height: 1.4;
+}
 
 .second-previev-title-paragraph {
-    font-size: 14px;
-    line-height: 1.5;}
+  font-size: 14px;
+  line-height: 1.5;
+}
 
-.second-previev-button{
-    font-weight: 500;
-        font-size: 13px;
-        line-height: 1.5;
-        text-align: right;
-        border-radius: 30px;
-        padding: 10px 20px;
-        min-width: 106px;
-        height: 40px;
-        margin-top: 32px;
-        margin-right: 16px;
-        font-family: inherit;
-        border: 2px solid #7eb101;
-        background: #fff;
+.second-previev-button {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  border-radius: 30px;
+  padding: 10px 20px;
+  min-width: 106px;
+  height: 40px;
+  margin-top: 32px;
+  margin-right: 16px;
+  font-family: inherit;
+  border: 2px solid #7eb101;
+  background: #fff;
 }
 
 /* ===================== THIRD PREVIEV ===================== */
 
-
-.menu-description{
-    text-align: center;
-    margin-bottom: 40px;
+.menu-description {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.menu-paragraph{
-    font-size: 16px;
+.menu-paragraph {
+  font-size: 16px;
 }
 
-.menu-title{
-    font-size: 42px;
-    margin-bottom: 20px;
+.menu-title {
+  font-size: 42px;
+  margin-bottom: 20px;
 }
 
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+  justify-content: center;
+}
 
-.menu-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    width: 1280px;
-        padding: 0 16px;
-        margin: 0 auto;
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 99, 99, 0.7);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 32px;
+  border-radius: 30px;
+  width: 458px;
+  min-height: 449px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffe550;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  line-height: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #7eb101;
+}
+.modal-close-btn:hover > .modal-close-icon,
+.modal-close-btn:focus > .modal-close-icon {
+  fill: #fff;
+}
+.modal-close-icon {
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-field {
+  margin-bottom: 24px;
+}
+
+.modal-label {
+    display: block;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-left: 12px;
+        margin-bottom: 2px;
+}
+
+.modal-input {
+    border: 1px solid rgba(18, 18, 18, 0.12);
+        border-radius: 30px;
+        width: 100%;
+        height: 48px;
+     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+        background-color: #fff;
+        outline: transparent;
+        padding-left: 12px;
+}
+.modal-input:focus{
+    border-color: #7eb101;
+}
+.modal-send-btn {
+}
+.input-wrap{
+    position: relative;
+}
+.modal-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   left: 16px;
+}
+
+.modal-input-person{
+    padding-left: 36px;
+    width: 394px;
+}
+
+.modal-input-person:focus + .modal-icon{
+    fill: #7eb101;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.modal-field-check {
+    margin-bottom: 32px;
+}
+
+.modal-check-input:checked + .label-check > .checkbox {
+    background-color:#7eb101;
+    fill: #fff;
+    border: none;
+}
+
+.label-check {
+    font-size: 14px;
+}
+.check-link{
+    color: #7eb101;
+    text-decoration: underline;
+}
+.checkbox {
+    width: 16px;
+    height: 16px;
+    fill:transparent;
+    border-radius: 2px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        display: inline-flex;
         justify-content: center;
+        align-items: center;
+        background-color: #fff;
 }
+
+.check-icon {}
